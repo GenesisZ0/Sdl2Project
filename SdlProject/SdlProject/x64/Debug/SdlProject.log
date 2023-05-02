@@ -1,0 +1,13 @@
+﻿  Engine.cpp
+D:\Github\Sdl2Project\SdlProject\SdlProject\Engine.h(1,13): warning C4081: attendu 'newline' ; rencontré ';'
+D:\Github\Sdl2Project\SdlProject\SdlProject\Engine.h(13,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  object.cpp
+  Source.cpp
+D:\Github\Sdl2Project\SdlProject\SdlProject\Source.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+D:\Github\Sdl2Project\SdlProject\SdlProject\Engine.h(1,13): warning C4081: attendu 'newline' ; rencontré ';'
+D:\Github\Sdl2Project\SdlProject\SdlProject\Engine.h(13,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Génération de code en cours...
+Engine.obj : error LNK2019: symbole externe non résolu IMG_Init référencé dans la fonction "public: void __cdecl Engine::render(void)" (?render@Engine@@QEAAXXZ)
+object.obj : error LNK2019: symbole externe non résolu IMG_Load référencé dans la fonction "public: void __cdecl object::SetImage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?SetImage@object@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z)
+D:\Github\Sdl2Project\SDL2\iMAGE\SDL2_image-2.6.3\i686-w64-mingw32\lib\libSDL2_image.a : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+D:\Github\Sdl2Project\SdlProject\x64\Debug\SdlProject.exe : fatal error LNK1120: 2 externes non résolus
