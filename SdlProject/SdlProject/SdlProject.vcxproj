@@ -80,6 +80,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\Github\Sdl2Project\SDL2\iMAGE\SDL2_image-2.6.3\i686-w64-mingw32\include\SDL2;D:\Github\Sdl2Project\SDL2\sdl2\SDL2-devel-2.26.5-VC\SDL2-2.26.5\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Github\Sdl2Project\SDL2\iMAGE\SDL2_image-2.6.3\i686-w64-mingw32\lib;D:\Github\Sdl2Project\SDL2\sdl2\SDL2-devel-2.26.5-VC\SDL2-2.26.5\lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\$(SdlProject)</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

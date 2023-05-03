@@ -23,6 +23,6 @@ void object::SetSorce(int x, int y, int w, int h)
 void object::SetImage(string filname, SDL_Renderer* ren)
 {
 	 
-	SDL_Surface* surf = IMG_Load(filname.c_str());
-	tex = SDL_CreateTextureFromSurface(ren, surf);
+	//SDL_Surface* surf = IMG_Load(filname.c_str());
+	//tex = SDL_CreateTextureFromSurface(ren, surf);
 }

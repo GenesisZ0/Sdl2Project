@@ -10,10 +10,11 @@ Engine::Engine()
 	SDL_SetWindowTitle(win, "our First Game ");
 	running = true;
 	count = 0;
-	start.SetDest(50, 50, 75, 75);
-	start.SetSorce(0, 0, 0, 0);
- 	start.SetImage("Image.png", ren);
+	//start.SetDest(50, 50, 75, 75);
+	//start.SetSorce(0, 0, 0, 0);
+ 	//start.SetImage("Image.png", ren);
 	loop();
+;
 }
 
 Engine::~Engine()
@@ -57,8 +58,8 @@ void Engine::render()
 	rect.w = 360;
 	rect.h = 240;
 	SDL_RenderFillRect(ren, &rect);
-	IMG_Init(IMG_INIT_PNG);
-	draw(start);
+//	IMG_Init(IMG_INIT_PNG);
+	//draw(start);
 
 	frameCount++;
 	int timerFps = SDL_GetTicks() - lastFrame;
